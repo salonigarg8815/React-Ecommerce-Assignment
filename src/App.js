@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import LogIn from './Component/LogIn'
 import Home from './Component/Home'
 import About from './components/About'
+import ProductData from './components/ProductData'
 
 const App = () => {
   return (

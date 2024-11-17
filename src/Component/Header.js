@@ -38,7 +38,7 @@ const Header = () => {
                                         <Link to="/Home/About" > <a className="nav-link" href="#">About</a></Link>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#">Sign Up</a>
+                                        <a className="nav-link" href="#"><Link to="/">Sign Up</Link></a>
                                     </li>
                                 </ul>
                                 <form className="d-flex head-input">
