@@ -5,7 +5,7 @@ import arrival3 from '../images/Frame 737.png'
 
 const Arrival = () => {
     return (
-        <div className="container">
+        <div className="container arrival-section">
             <div className="heading">
                 <h3>Our Products</h3>
             </div>
@@ -15,13 +15,13 @@ const Arrival = () => {
                 </div>
             </div>
 
-            <div className="row">
-                <div className="col-md-6">
+            <div className="row my-4">
+                <div className="col-md-6 arrival-left-img">
                     <img src={arrival1} alt="" />
                 </div>
-                <div className="col-md-6">
-                    <img src={arriva2} alt="" />
-                    <img src={arrival3} alt="" />
+                <div className="col-md-6 arrival-right-img ">
+                    <img src={arriva2} alt="" className='my-sm-2' />
+                    <img src={arrival3} alt="" className='mt-3' />
                 </div>
             </div>
         </div>
