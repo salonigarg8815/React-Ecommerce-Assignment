@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 const ReviewSliderContent = ({ item }) => {
   console.log(item.img)
   return (
-    <div>
+    <div className="review-con">
       <img src={item.img} className="review-img" alt="img" />
       <h5 className="review-heading">{item.title}</h5>
       <p className="review-para">{item.para}</p>

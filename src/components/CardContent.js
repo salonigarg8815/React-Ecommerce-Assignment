@@ -1,7 +1,7 @@
 const CardContent = ({ details }) => {
   return (
     <div>
-      <div className="card">
+      <div className="card  m-1 ">
         <div className="icon-bg">
           <span className="icon">{details.icon}</span>
         </div>

@@ -37,7 +37,7 @@ const Review = () => {
   };
   return (
     <div>
-      <div className="container">
+      <div className="container review-sec">
         <div className="row">
           <div className="col mt-5">
             <Slider {...settings}>
