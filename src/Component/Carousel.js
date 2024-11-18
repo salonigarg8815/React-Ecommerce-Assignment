@@ -3,6 +3,7 @@ import data from '../constant/carouselData'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { Link } from 'react-router-dom';
 
 
 const Carousel = () => {
@@ -51,7 +52,7 @@ const Carousel = () => {
                                     <button>{d.discount}</button>
                                     <i class="fa-regular fa-heart"></i>
                                 </div>
-                                <img src={d.img} alt="gamePad" />
+                                <Link to="/Home/ProductData"><img src={d.img} alt="gamePad" /></Link>
                             </div>
                             <div className="card-body-box">
                                 <h6> {d.title} </h6>
